@@ -1,3 +1,6 @@
-const unusedVar = "test"
-let greeting = "Hello, World!"
-console.log(greeting)
+function greet(name) {
+  return 'Hello, ' + name;
+}
+
+const message = greet('World');
+export default message;
